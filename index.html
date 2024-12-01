@@ -1,147 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-.nav{
-    border: px solid black;
-    background-color: white;
-padding: 10px;
-width: 100vw;
-position: sticky;
-  top: 15px;
-    z-index: 5;
-}
-a{
-    text-decoration: none;
-    font-family: "Times New Roman", Georgia, Serif;
-    letter-spacing: 5px;
-    color: black;
-    
-    
-}
-#ul{
- list-style: none;
-margin-left: 500px;
-display: flex;
-margin-top: -15px;
-justify-content: space-around;
-}
-a:hover{
-    background-color: gray;
-   
-}
-::-webkit-scrollbar{
-    display: none;
-}
-.cd{
-    margin-left: 700px;
-    margin-top: 60px;
-    
-}
-#image{
-    margin-top: -320px;
-    margin-left: -800px;
-    width: 700px;
-    height: 500px;
-}
-.md{
-margin-top: 100px;
-}
-#img3{
-    margin-top: -600px;
-    margin-left: 800px;
-    height: 600px;
-    width: 600px;
-}
-form {
+      .navbar {
         display: flex;
-        flex-direction: column;
-        gap: 10px;
-        justify-content: center;
-        width: 90vw;
-        
+        justify-content: space-between;
+        flex-wrap: wrap;
       }
-      .p1{
-        border: 2px solid black;
-        padding: 20px;
+      .nav_2 {
         display: flex;
-        width: 100%;
-        height: 100%;
-       
+        justify-content: space-evenly;
+        width: 30%;
+        flex-wrap: wrap;
       }
-      .p2{
-        width: 200px;
-        height: 50px;
+      .nav_2 a {
+        text-decoration: none;
+        color: black;
       }
-      .p2:hover{
-        background-color: gray;
-      }
-      ::-webkit-scrollbar{
-        display: none;
-      }
-      
     </style>
-</head>
-<body >
-   <div class="nav">
-    <a href="">Gormet au catering</a>
-    <ul id="ul">
-        <li><a href="#about">About</a></li>
-        <li><a href="#menu">Menu</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</div>
-<div>
-    <img src="./img1.jpg" alt="">
-    <h1 style="position: absolute; top: 105%; left: 5%; opacity: 0.7;"><strong>Le Catering</strong></h1>
-</div>
-<div id="about">
-<div class="cd">
-<h1>About Catering</h1>
-<a href="">Tradition since 1889</a>
-<p>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.</p><br><br>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="nav_1"><h1>BB Hotel</h1></div>
+      <div class="nav_2">
+        <h1><a href="#about">About</a></h1>
+        <h1><a href="#menu">Menu</a></h1>
+        <h1><a href="#contact">Contact</a></h1>
+      </div>
+    </div>
+    <div style="position: relative; display: flex; justify-content: center">
+      <img
+        style="width: 80vw"
+        src="https://www.w3schools.com/w3images/hamburger.jpg"
+        alt=""
+      />
+      <h1 style="position: absolute; top: 50%; left: 70%; font-size: 80%">
+        Le Catering
+      </h1>
+    </div>
+    <br /><br />
+    <div>
+      <div class="about" style="position: relative; justify-content: center; display: flex">
+        <div>
+          <img
+            style="width: 80vw; height: 50vw; justify-content: space-between"
+            src="https://www.w3schools.com/w3images/tablesetting2.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
 
-    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-<img id="image" ; src="./img2.jpg" alt="">
-</div>
-<div id="menu">
-<div class="md">
-<h1 class="menu">Our Menu</h1><br>
-<h4>Bread Basket</h4>
-<p>Assortment of fresh baked fruit breads and muffins 5.50</p><br>
-<h4>Honey Almond Granola with Fruits</h4>
-<p>Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
-<h4>Belgian Waffle</h4>
-<p>Vanilla flavored batter with malted flour 7.50</p><br><br>
-<h4>Scrambled eggs</h4>
-<p>Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
-<h4>Blueberry Pancakes</h4>
-<p>With syrup, butter and lots of berries 8.50</p>
-<img id="img3" src="./img3.jpg" alt="">
+    
+      <h1 id="about" style=" display: flex; position: relative;justify-content: center;">About Catering</h1>
+      <div style="position: relative; justify-content: center; display: flex" >
+      
+      <p>
+        The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit
+        amet, consectetur adipiscing elit consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute iruredolor in reprehenderit in
+        voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use
+        seasonal ingredients. Excepteur sint occaecat cupidatat non proident,
+        sunt in culpa qui officia deserunt mollit anim id est laborum
+        consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
+    <div>
+        <div class="about" style="position: relative; justify-content: center; display: flex">
+          <div>
+            <img
+              style="width: 80vw; height: 50vw; justify-content: space-between"
+              src="https://www.w3schools.com/w3images/tablesetting.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
 
-</div>
-</div>
-
-<div id="contact">
-    <h1 style="letter-spacing: 5px;">Contact</h1><br><br>
-    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
-<h3 style="color: rgb(174, 178, 198);">Catering Service, 42nd Living St, 43043 New York, NY</h3><br>
-<p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
-</div>
-<form>
-<p><input class="p1" type="text" placeholder="name" required name="Name"></p>
-<p><input class="p1" type="text" placeholder="How many people" required name="Name" ></p>
-<p><input class="p1" type="datetime-local" placeholder="date and time" value="2020-11-16T20:00" required name="Name"></p>
-<p><input class="p1" type="text" placeholder="Message \ Special requirements" required name="Name"></p>
-<button class="p2" type="submit">SEND MASSEGE</button>
-</form> 
-
-</div>
-
-    <p style="text-align: center; background-color: gray; width: 100%; height: 100%;">Powered by 10k.coders</p>
-
-</body>
+      <div>
+        <h1 id="menu" style="display: flex; position: relative; justify-content: center;">Our Menu</h1>
+        <div>
+            <h3 style="display: flex; position: relative; justify-content: center;">Bread Basket</h3>
+            <p style="display: flex; position: relative; justify-content: center;">Assortment of fresh baked fruit breads and muffins 5.50</p>
+            <h3 style="display: flex; position: relative; justify-content: center;">Honey Almond Granola with Fruits</h3>
+            <p style="display: flex; position: relative; justify-content: center;">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+            <h3 style="display: flex; position: relative; justify-content: center;">Belgian Waffle</h3>
+            <p style="display: flex; position: relative; justify-content: center;">Vanilla flavored batter with malted flour 7.50</p>
+            <h3 style="display: flex; position: relative; justify-content: center;">Scrambled eggs</h3>
+            <p style="display: flex; position: relative; justify-content: center;">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+            <h3 style="display: flex; position: relative; justify-content: center;">Blueberry Pancakes</h3>
+            <p style="display: flex; position: relative; justify-content: center;">With syrup, butter and lots of berries 8.50</p>
+        </div>
+     </div>
+     <div>
+        <h1 id="contact" style="display: flex; position: relative; justify-content: center;">Contact</h1>
+        <p style="display: flex; position: relative; justify-content: center;">We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+       <h3 style="color: rgb(128, 116, 116);display: flex; position: relative; justify-content: center;">Catering Service, 42nd Living St, 43043 New York, NY </h3>
+       <p style="display: flex; position: relative; justify-content: center;">You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+       <div>
+            <form >
+                <input style="display: flex; position: relative; justify-content: center; width: 100%;" type="text" placeholder="name" name=""  id=""><br>
+                <input style="display: flex; position: relative; justify-content: center; width: 100%;" type="number" placeholder="How many people" name="" id=""><br>
+                <input style="display: flex; position: relative; justify-content: center; width: 100%;" type="datetime-local" placeholder="date and time" name="" id="" value="2020-11-16T20:00"><br>
+                <input style="display: flex; position: relative; justify-content: center; width: 100%;" type="text" placeholder="massege/special requirements" name="" id=""><br>
+                <button style="display: flex; position: relative; justify-content: center;" class="" type="submit">SEND MESSAGE</button>
+            </form>
+        </div><br>
+     </div>
+     <div style="display: flex; position: relative; justify-content: center; background-color: gray; width: 100%;">
+        <p>Powerd by <a style="text-decoration: none;" href="https://www.10000coders.co/">10k.coders</a></p>
+     </div>
+  </body>
 </html>
